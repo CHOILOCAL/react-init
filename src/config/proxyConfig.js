@@ -8,4 +8,4 @@ module.exports = function (app) {
             ws: true
         })
     )
-};(지가)
+};()

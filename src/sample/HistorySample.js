@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-
+import { Button } from 'react-bootstrap';
 
 
 function HistorySample({ history }) {
@@ -22,8 +22,8 @@ function HistorySample({ history }) {
 
     return (
         <div>
-            <button onClick={goBack}>뒤로가기</button>
-            <button onClick={goHome}>홈으로</button>
+            <Button variant="success" onClick={goBack}>뒤로가기</Button>
+            <Button variant="success" onClick={goHome}>홈으로</Button>
         </div>
     );
 }
